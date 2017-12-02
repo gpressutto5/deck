@@ -1,0 +1,12 @@
+language: php
+dist: trusty
+sudo: false
+php: '7.1'
+install: composer install
+script: phpunit
+after_script: bash <(curl -s https://codecov.io/bash)
+cache:
+  apt: true
+  directories:
+    - $TRAVIS_BUILD_DIR/vendor
+    - $HOME/.composer/cache

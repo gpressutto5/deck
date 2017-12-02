@@ -1,0 +1,29 @@
+{
+    "name": "gpressutto5/deck",
+    "description": "A playing cards deck library.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Guilherme Pressutto",
+            "email": "gpressutto5@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Pressutto\\Deck\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "myclabs/php-enum": "^1.5",
+        "php": "~7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    }
+}
