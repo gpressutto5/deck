@@ -24,6 +24,11 @@ class Deck
         }
     }
 
+    /**
+     * Returns the entire deck
+     *
+     * @return array
+     */
     public function getAllCards(): array
     {
         return $this->deck;
