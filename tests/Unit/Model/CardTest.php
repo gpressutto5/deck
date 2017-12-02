@@ -17,6 +17,13 @@ class CardTest extends TestCase
         $this->assertEquals('T♠︎', (string) $card);
     }
 
+    public function testToStringNullCard()
+    {
+        $card = new Card();
+
+        $this->assertEquals('', (string) $card);
+    }
+
     public function testGetters()
     {
         $card = new Card([

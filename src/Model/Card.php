@@ -59,7 +59,7 @@ class Card extends BaseModel
         return $suit instanceof Suit;
     }
 
-    private function getTranslatedValue(int $value): string
+    private function getTranslatedValue(?int $value): string
     {
         switch ($value) {
             case 1:
