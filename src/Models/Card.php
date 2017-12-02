@@ -1,6 +1,6 @@
 <?php
 
-namespace Pressutto\Deck\Model;
+namespace Pressutto\Deck\Models;
 
 use Pressutto\Deck\Enum\Suit;
 

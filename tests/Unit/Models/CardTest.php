@@ -1,8 +1,8 @@
 <?php
-namespace Tests\Unit\Model;
+namespace Tests\Unit\Models;
 
 use Pressutto\Deck\Enum\Suit;
-use Pressutto\Deck\Model\Card;
+use Pressutto\Deck\Models\Card;
 use Tests\TestCase;
 
 class CardTest extends TestCase

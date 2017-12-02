@@ -1,7 +1,7 @@
 <?php
-namespace Tests\Unit;
+namespace Tests\Unit\Models;
 
-use Pressutto\Deck\Deck;
+use Pressutto\Deck\Models\Deck;
 use Tests\TestCase;
 
 class DeckTest extends TestCase

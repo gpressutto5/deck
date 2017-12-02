@@ -1,8 +1,7 @@
 <?php
-namespace Pressutto\Deck;
+namespace Pressutto\Deck\Models;
 
 use Pressutto\Deck\Enum\Suit;
-use Pressutto\Deck\Model\Card;
 
 class Deck
 {

@@ -1,8 +1,8 @@
 <?php
-namespace Tests\Unit\Model;
+namespace Tests\Unit\Models;
 
 use Tests\TestCase;
-use Pressutto\Deck\Model\BaseModel;
+use Pressutto\Deck\Models\BaseModel;
 
 class BaseModelTest extends TestCase
 {
